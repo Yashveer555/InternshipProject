@@ -17,7 +17,7 @@ public class database {
     public static void main(String args[]) throws SQLException{
         String URL = "jdbc:mysql://localhost:3306/BMS";
         String uname = "root";
-        String password = "Yrbprod@1412";
+        String password = "";
         String query = "SELECT * FROM FILE_MONITOR";
 
         try {
